@@ -7,7 +7,7 @@ const {
 	verifyCode,
 	login,
 	getLoggedUser,
-} = require("../controllers/User.controllers");
+} = require("../controllers/user.controllers");
 const express = require("express");
 const verifyJWT = require("../utils/verifyJWT");
 
